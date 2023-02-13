@@ -106,7 +106,7 @@ function Pomodoro(props) {
       >
         <CircularProgressLabel height="80%" width={"80%"}>
           <ReactHowler
-            src="/tac.mp3"
+            src="/sonidoSegundos.mp3"
             playing={tac}
             preload={true}
             volume={0.4}

@@ -12,7 +12,7 @@ export default function PomodoroPage() {
   const [showSettings, setShowSettings] = useState(false);
   const [studyMinutes, setStudyMinutes] = useState(25);
   const [breakMinutes, setBreakMinutes] = useState(5);
-  const [colores, setColores] = useState("yellow");
+  const [colores, setColores] = useState("purple");
 
   return (
     <SettingsContext.Provider

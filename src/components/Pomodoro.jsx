@@ -14,7 +14,7 @@ import ButtonPause from "./ButtonPause";
 import ButtonSettings from "./ButtonSettings";
 import { useState, useEffect, useContext, useRef } from "react";
 import { motion, isValidMotionProp } from "framer-motion";
-import ImageFade from "./ImagenGust";
+import ImageFade from "./ImagenesSapitos";
 import { SettingsContext } from "./SettingsContext.js";
 import ReactHowler from "react-howler";
 import { BsFillVolumeMuteFill, BsFillVolumeUpFill } from "react-icons/bs";
@@ -109,7 +109,7 @@ function Pomodoro(props) {
             src="/tac.mp3"
             playing={tac}
             preload={true}
-            volume={0.3}
+            volume={0.4}
           />
           <ReactHowler
             src="/grito.mp3"
@@ -119,7 +119,7 @@ function Pomodoro(props) {
               setIsPlayed(false);
             }}
             loop={false}
-            volume={0.6}
+            volume={0.8}
           />
           <ImageFade src={mode ? profilePic : profilePic2} />
         </CircularProgressLabel>

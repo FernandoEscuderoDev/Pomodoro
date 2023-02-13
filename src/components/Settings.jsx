@@ -68,6 +68,7 @@ function Settings(props) {
           <ButtonColors e={settingsInfo} color={"yellow"}></ButtonColors>
           <ButtonColors e={settingsInfo} color={"orange"}></ButtonColors>
           <ButtonColors e={settingsInfo} color={"teal"}></ButtonColors>
+          <ButtonColors e={settingsInfo} color={"green"}></ButtonColors>
           <ButtonColors e={settingsInfo} color={"blue"}></ButtonColors>
           <ButtonColors e={settingsInfo} color={"cyan"}></ButtonColors>
           <ButtonColors e={settingsInfo} color={"pink"}></ButtonColors>

@@ -10,7 +10,7 @@ const ImageFade = ({ src }) => {
         rounded={"100%"}
         src={src}
         objectFit="cover"
-        alt="Imagenes de Gust"
+        alt="Imagenes de sapitos durmiendo"
         priority={true}
         quality={50}
       />

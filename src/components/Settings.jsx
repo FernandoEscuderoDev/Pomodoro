@@ -63,7 +63,7 @@ function Settings(props) {
         <Box as="h3" textShadow={`2px 2px #000`} fontWeight={500}>
           Colores
         </Box>
-        <HStack gap={2}>
+        <HStack gap={2} w="100%">
           <ButtonColors e={settingsInfo} color={"purple"}></ButtonColors>
           <ButtonColors e={settingsInfo} color={"yellow"}></ButtonColors>
           <ButtonColors e={settingsInfo} color={"orange"}></ButtonColors>

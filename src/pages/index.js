@@ -29,6 +29,7 @@ export default function PomodoroPage() {
         bgGradient={`linear-gradient(to-t, ${colores}.500, ${colores}.700, ${colores}.900)`}
         h="100vh"
         w="100%"
+        overflowY={'none'}
       >
         {showSettings ? (
           <ChakraBox

@@ -93,7 +93,7 @@ function Pomodoro(props) {
       justifyContent={"center"}
       alignItems={"center"}
       h="100vh"
-      gap={8}
+      gap={5}
       fontWeight={500}
     >
       <CircularProgress

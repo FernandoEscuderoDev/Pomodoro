@@ -32,7 +32,7 @@ function Settings(props) {
         w={{ base: "70%", md: "75%" }}
         gap={5}
       >
-        <Box as="label" textShadow={`2px 2px #000`} fontWeight={500}>
+        <Box as="label" fontSize={'lg'} textShadow={`2px 2px #000`} fontWeight={500}>
           Estudio: {valueSliderStudy}:00
         </Box>
         <SliderMod
@@ -48,7 +48,7 @@ function Settings(props) {
         w={{ base: "70%", md: "75%" }}
         gap={5}
       >
-        <Box as="label" textShadow={`2px 2px #000`} fontWeight={500}>
+        <Box as="label" fontSize={'lg'} textShadow={`2px 2px #000`} fontWeight={500}>
           Descanso: {valueSliderBreak}:00
         </Box>
         <SliderMod
@@ -59,7 +59,7 @@ function Settings(props) {
         />
       </Flex>
       <Flex direction={"column"} gap={5} w={{ base: "70%", md: "75%" }}>
-        <Box as="h3" textShadow={`2px 2px #000`} fontWeight={500}>
+        <Box as="h3" textShadow={`2px 2px #000`} fontSize={'lg'} fontWeight={500}>
           Colores
         </Box>
         <HStack gap={{ base: "4", md: "2" }} w="100%" alignItems={'center'} flexDirection={{ base: "column", md: "row" }}>

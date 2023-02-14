@@ -102,7 +102,7 @@ function Pomodoro(props) {
         value={percentage}
         color={mode ? "red.600" : "green.600"}
         thickness="8px"
-        size={{ base: "300px", sm: "400px" }}
+        size={{ base: "300px", lg: "350px" }}
         zIndex={20}
       >
         <CircularProgressLabel height="80%" width={"80%"}>

@@ -27,10 +27,9 @@ function Settings(props) {
       gap={10}
     >
       <Flex
-        as={"main"}
         direction={"column"}
         justifyContent="center"
-        w={{ base: "80%", md: "50%" }}
+        w={{ base: "70%", md: "75%" }}
         gap={5}
       >
         <Box as="label" textShadow={`2px 2px #000`} fontWeight={500}>
@@ -46,7 +45,7 @@ function Settings(props) {
       <Flex
         direction={"column"}
         justifyContent="center"
-        w={{ base: "80%", md: "50%" }}
+        w={{ base: "70%", md: "75%" }}
         gap={5}
       >
         <Box as="label" textShadow={`2px 2px #000`} fontWeight={500}>
@@ -59,21 +58,25 @@ function Settings(props) {
           submitValue={setValueSliderBreak}
         />
       </Flex>
-      <Flex direction={"column"} gap={5} w={{ base: "80%", md: "50%" }}>
+      <Flex direction={"column"} gap={5} w={{ base: "70%", md: "75%" }}>
         <Box as="h3" textShadow={`2px 2px #000`} fontWeight={500}>
           Colores
         </Box>
-        <HStack gap={5} w="100%" wrap="wrap">
-          <ButtonColors e={settingsInfo} color={"purple"}></ButtonColors>
-          <ButtonColors e={settingsInfo} color={"yellow"}></ButtonColors>
-          <ButtonColors e={settingsInfo} color={"orange"}></ButtonColors>
-          <ButtonColors e={settingsInfo} color={"teal"}></ButtonColors>
-          <ButtonColors e={settingsInfo} color={"green"}></ButtonColors>
+        <HStack gap={{ base: "4", md: "2" }} w="100%" alignItems={'center'} flexDirection={{ base: "column", md: "row" }}>
+          <HStack gap={2}>
+            <ButtonColors e={settingsInfo} color={"purple"}></ButtonColors>
+            <ButtonColors e={settingsInfo} color={"yellow"}></ButtonColors>
+            <ButtonColors e={settingsInfo} color={"orange"}></ButtonColors>
+            <ButtonColors e={settingsInfo} color={"teal"}></ButtonColors>
+            <ButtonColors e={settingsInfo} color={"green"}></ButtonColors>
+          </HStack>
+          <HStack gap={2}>
           <ButtonColors e={settingsInfo} color={"blue"}></ButtonColors>
           <ButtonColors e={settingsInfo} color={"cyan"}></ButtonColors>
           <ButtonColors e={settingsInfo} color={"pink"}></ButtonColors>
           <ButtonColors e={settingsInfo} color={"red"}></ButtonColors>
           <ButtonColors e={settingsInfo} color={"gray"}></ButtonColors>
+          </HStack>
         </HStack>
       </Flex>
       <Flex gap={5} textColor={"black"}>

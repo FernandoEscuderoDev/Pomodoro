@@ -168,7 +168,7 @@ function Pomodoro(props) {
           }}
         ></IconButton>
       </Flex>
-      <Text mt={6} gap='1' fontFamily="Roboto" fontSize='xl' display={'flex'} alignItems='center' opacity={0.6}>Desarrollado con <Box as={BsFillHeartFill} display="inline" color="red.600"/> por FernDev</Text>
+      <Text mt={6} gap='1' fontFamily="Roboto" fontSize='xl' display={'flex'} alignItems='center' opacity={0.6}>Desarrollado con <Box as={BsFillHeartFill} display="inline" color="red.700"/> por FernDev</Text>
     </Flex>
   );
 }

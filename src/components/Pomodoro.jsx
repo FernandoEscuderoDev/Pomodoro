@@ -6,6 +6,7 @@ import {
   shouldForwardProp,
   chakra,
   IconButton,
+  Text
 } from "@chakra-ui/react";
 import profilePic from "../assets/pomodoro3.jpg";
 import profilePic2 from "../assets/pomodoro2.jpg";
@@ -17,7 +18,7 @@ import { motion, isValidMotionProp } from "framer-motion";
 import ImageFade from "./ImagenesSapitos";
 import { SettingsContext } from "./SettingsContext.js";
 import ReactHowler from "react-howler";
-import { BsFillVolumeMuteFill, BsFillVolumeUpFill } from "react-icons/bs";
+import { BsFillVolumeMuteFill, BsFillVolumeUpFill, BsFillHeartFill } from "react-icons/bs";
 
 function Pomodoro(props) {
   const ChakraBox = chakra(motion.div, {
@@ -167,6 +168,7 @@ function Pomodoro(props) {
           }}
         ></IconButton>
       </Flex>
+      <Text fontSize='2xl' opacity={0.6}>Creado con <Box as="BsFillHeartFill" color="red"/> por FernDev</Text>
     </Flex>
   );
 }

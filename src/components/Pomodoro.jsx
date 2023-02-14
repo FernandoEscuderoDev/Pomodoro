@@ -93,7 +93,7 @@ function Pomodoro(props) {
       justifyContent={"center"}
       alignItems={"center"}
       h="100vh"
-      gap={5}
+      gap={2}
       fontWeight={500}
     >
       <CircularProgress
@@ -125,7 +125,7 @@ function Pomodoro(props) {
           <ImageFade src={mode ? profilePic : profilePic2} />
         </CircularProgressLabel>
       </CircularProgress>
-      <Box textShadow={`2px 2px #000`} fontSize={"1.5rem"}>
+      <Box textShadow={`2px 2px #000`} fontSize={"25"}>
         {minutes + ":" + seconds}
       </Box>
       <Flex gap={"20px"}>
@@ -158,7 +158,7 @@ function Pomodoro(props) {
           }}
         />
         <IconButton
-          fontSize={"1.5rem"}
+          fontSize={"25"}
           colorScheme={coloresBtn === "gray" ? "purple" : coloresBtn}
           boxShadow={"dark-lg"}
           icon={sonido ? <BsFillVolumeUpFill /> : <BsFillVolumeMuteFill />}
@@ -168,7 +168,7 @@ function Pomodoro(props) {
           }}
         ></IconButton>
       </Flex>
-      <Text mt={12} fontFamily="Roboto" fontSize='xl' opacity={0.5}>Desarrollado con <Box as={BsFillHeartFill} display="inline" color="red.600"/> por FernDev</Text>
+      <Text mt={6} gap='1' fontFamily="Roboto" fontSize='xl' display={'flex'} alignItems='center' opacity={0.6}>Desarrollado con <Box as={BsFillHeartFill} display="inline" color="red.600"/> por FernDev</Text>
     </Flex>
   );
 }

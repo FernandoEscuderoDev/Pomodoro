@@ -110,7 +110,7 @@ function Pomodoro(props) {
             src="/sonidoSegundos.mp3"
             playing={tac}
             preload={true}
-            volume={0.4}
+            volume={0.2}
           />
           <ReactHowler
             src="/grito.mp3"
